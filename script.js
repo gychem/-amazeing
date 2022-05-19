@@ -45,7 +45,7 @@ function nextLevel() {
 function loadMap(array) {
 
     array.forEach(n => arrayLenght = n.length); 
-    let blockWidth = 30; //Width of one cell in px
+    let blockWidth = 50; //Width of one cell in px
     let totalWidth = blockWidth * arrayLenght;
     main.style.width = `${totalWidth}px`;
 

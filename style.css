@@ -11,9 +11,14 @@ header {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color: 	rgb(0,0,0,0.5);
-    width: 350px;
+    width: 500px;
     border-radius: 20px;
 }
+
+header h1 {
+    font-size: 60px;
+}
+
 #succes_container {
     display: flex;
     justify-content: center;
@@ -59,7 +64,7 @@ header {
 section {
     text-align: center;
     font-family: calibri;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 main {
@@ -73,40 +78,45 @@ main {
 
 .wall {
     background-image: url('./images/wall.png');
-    height: 30px;
-    width: 30px;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
 }
 
 .path {
     background-image: url('./images/path.png');
-    height: 30px;
-    width: 30px;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
 }
 
 .start {
     background-image: url('./images/start.png');
-    height: 30px;
-    width: 30px;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
 }
 
 .treasure {
     background-image: url('./images/treasure.png');
-    height: 30px;
-    width: 30px;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
 }
 
 .player {
     background-image: url('./images/player.png');
-    height: 30px;
-    width: 30px;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
     border-radius: 30px;
 }
 
 footer {
     font-family: calibri;
-    font-size: 8px;
+    font-size: 12px;
     padding: 5px;
-    width: 250px;
+    width: 350px;
     margin: 0 auto;
     border-radius: 15px;
     color: white;
