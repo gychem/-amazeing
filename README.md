@@ -1,3 +1,5 @@
+<a href="https://pirate-treasure-hunter-maze.netlify.app/">Netlify Link</a>
+
 # AMAZEing
 
 Let's build a simple Maze program. You start from a defined position, you're supposed to get the treasure.
