@@ -77,7 +77,7 @@ function loadPlayer() {
     player.setAttribute("id", `${start.id}`);
 }
 ////////////////////////////////////////////////////////////////////////////////////   GAME CONTROLS
-document.addEventListener('keyup', event => {
+document.addEventListener('keydown', event => {
     switch (event.code) {
       case "ArrowRight":
         playerActiveId = player.id;
